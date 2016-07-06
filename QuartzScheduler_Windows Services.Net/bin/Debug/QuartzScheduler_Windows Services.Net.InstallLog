@@ -1,0 +1,89 @@
+﻿Installing assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe assembly.
+Committing assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Rolling back assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Uninstalling assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Removing EventLog source ChienService.
+Warning: The source ChienService is not registered on the local machine.
+Service ChienService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Installing service ChienService...
+Service ChienService has been successfully installed.
+Creating EventLog source ChienService in log Application...
+Committing assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Uninstalling assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Removing EventLog source ChienService.
+Service ChienService is being removed from the system...
+Service ChienService was successfully removed from the system.
+Attempt to stop service ChienService.
+Uninstalling assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Removing EventLog source ChienService.
+Warning: The source ChienService is not registered on the local machine.
+Service ChienService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Installing service ChienService...
+Service ChienService has been successfully installed.
+Creating EventLog source ChienService in log Application...
+Committing assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Uninstalling assembly 'E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.InstallLog
+   assemblypath = E:\ProgrammingExample\QuartzScheduler_Windows Services.Net\QuartzScheduler_Windows Services.Net\bin\Debug\QuartzScheduler_Windows Services.Net.exe
+Removing EventLog source ChienService.
+Service ChienService is being removed from the system...
+Service ChienService was successfully removed from the system.
+Attempt to stop service ChienService.

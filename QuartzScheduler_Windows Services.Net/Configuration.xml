@@ -1,11 +1,4 @@
-# Quartz.Net with Windows Service
-Link: http://www.quartz-scheduler.net/
-
-This contains the code for creating a windows scheduler job by using Quartz.net. Also using the log4net to write the log into a text file. The configuration info to start the job be configured in configuration.xml file. The job will repeat forever after some sleep times.
-
-Go to Configuration.xml file to update the value for timeframe:
-
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
   <chienvh>
     <scheduleInterval>
@@ -27,5 +20,3 @@ Go to Configuration.xml file to update the value for timeframe:
     </scheduleInterval>
   </chienvh>
 </config>
-
-
