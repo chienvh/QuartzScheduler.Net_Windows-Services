@@ -8,19 +8,27 @@ Quartz consists of 3 primary components - a job, a trigger and a scheduler. A jo
 Go to Configuration.xml file to update the value for timeframe:
 
 
-<!--Start: Set the times for the job start again-->
-<days>0</days>
-<hours>0</hours>
-<minutes>01</minutes> <!--For example, after 1 min the job will start again-->
-<!--/End: Set the times for the job start again-->
++ Start: Set the times for the job start again
 
-<!--Start: Set the date and time to start the job in the 1st time-->
-<startAtDate>07/06/2016</startAtDate>
-<startAtHours>22</startAtHours>
-<startAtMinutes>32</startAtMinutes>
-<!--/End: Set the date and time to start the job in the 1st time-->
+days 0 /days
 
-<!--Explaination: In the above example, after installing the windows service, the job will
+hours 0 /hours
+
+minutes 01 /minutes //For example, after 1 min the job will start again
+
+
++ Start: Set the date and time to start the job in the 1st time
+
+startAtDate 07/06/2016 / startAtDate
+
+startAtHours 22 / startAtHours
+
+startAtMinutes 32 /startAtMinutes
+
+
+Note explaination for this example:
+----------------------------------
+In the above example, after installing the windows service, the job will
 start at 22:32 and today is 06 July 2016. After the job excuted the 1st time, it will sleep 1 minute
-and will start again as a loop, this job won't stop unless you stop or unintall the windows service by youself-->
+and will start again as a loop, this job won't stop unless you stop or unintall the windows service by youself
 
