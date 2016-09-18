@@ -5,14 +5,17 @@
       <!--Start: Set the times for the job start again-->
       <days>0</days>
       <hours>0</hours>
-      <minutes>01</minutes> <!--For example, after 1 min the job will start again-->
+      <minutes>00</minutes> <!--For example, after 0 min the job will start again-->
+      <seconds>30</seconds> <!--For example, after 30 secs the job will start again-->
       <!--/End: Set the times for the job start again-->
 
       <!--Start: Set the date and time to start the job in the 1st time-->
-      <startAtDate>07/06/2016</startAtDate>
-      <startAtHours>22</startAtHours>
-      <startAtMinutes>32</startAtMinutes>
-      <!--/End: Set the date and time to start the job in the 1st time-->
+      <startAtDate>09/12/2016</startAtDate>
+      <startAtHours>06</startAtHours>
+      <startAtMinutes>58</startAtMinutes>   
+      <startAtSeconds>00</startAtSeconds>   
+      
+      <!--/End: Set the date and time to start the job in the 1st time  yyyyMMdd-HHMMss-->
 
       <!--Explaination: In the above example, after installing the windows service, the job will
       start at 22:32 and today is 06 July 2016. After the job excuted the 1st time, it will sleep 1 minute

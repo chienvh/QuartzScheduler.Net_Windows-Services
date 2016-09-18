@@ -55,6 +55,14 @@ namespace QuartzScheduler_Windows_Services.Net
                         loaderConfig.ScheduleIntervalInMinutes = minutes;
                     }
 
+                    node = scheduler.SelectSingleNode("seconds");
+                    if (node != null)
+                    {
+                        int seconds;
+                        Int32.TryParse(node.InnerText, out seconds);
+                        loaderConfig.ScheduleIntervalInSeconds = seconds;
+                    }
+
                     node = scheduler.SelectSingleNode("startAtHours");
                     if (node != null)
                     {

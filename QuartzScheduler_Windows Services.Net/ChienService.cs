@@ -62,16 +62,20 @@ namespace QuartzScheduler_Windows_Services.Net
                 var timeToRunInDays = config.ScheduleIntervalInDays * 24 * 60;
                 var timeToRunInHours = config.ScheduleIntervalInHours * 60;
                 var timeToRunInMinutes = config.ScheduleIntervalInMinutes;
-                var scheduleTime = timeToRunInDays + timeToRunInHours + timeToRunInMinutes;
+                var timeToRunInSeconds = config.ScheduleIntervalInSeconds;
+                var scheduleTime = timeToRunInDays + timeToRunInHours + timeToRunInMinutes + timeToRunInSeconds;
                 var startAtHours = config.ScheduleStartAtHours;
                 var startAtMinutes = config.ScheduleStartAtMinutes;
+                var startAtSeconds = config.ScheduleStartAtSeconds;
 
                 //Used trigger builder to create a job with scheduled times
                 ITrigger trigger = TriggerBuilder.Create()
                     .WithIdentity(ChienTrigger, ChienGroup)
                     .StartAt(DateTime.Now.Date.AddHours(startAtHours)
-                                              .AddMinutes(startAtMinutes))
-                    .WithSimpleSchedule(x => x.WithIntervalInMinutes(scheduleTime).RepeatForever())
+                                              .AddMinutes(startAtMinutes)
+                                              .AddSeconds(startAtSeconds))
+                                              
+                    .WithSimpleSchedule(x => x.WithIntervalInSeconds(scheduleTime).RepeatForever())
                     .Build();
 
                 //Schedule the job using the job and trigger   
