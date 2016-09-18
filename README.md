@@ -16,6 +16,8 @@ hours 0 /hours
 
 minutes 01 /minutes //For example, after 1 min the job will start again
 
+seconds 05 /seconds //For example, after 5 secs the job will start again
+
 
 + Start: Set the date and time to start the job in the 1st time
 
@@ -23,7 +25,9 @@ startAtDate 07/06/2016 / startAtDate
 
 startAtHours 22 / startAtHours
 
-startAtMinutes 32 /startAtMinutes
+startAtMinutes 32 / startAtMinutes
+
+startAtSeconds 05 / startAtSeconds
 
 
 Note explaination for this example:
